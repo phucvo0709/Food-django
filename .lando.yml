@@ -1,0 +1,9 @@
+name: lando-postgres
+services:
+  myservice:
+    type: postgres
+    portforward: 5433
+    creds:
+      database: food_db
+      user: postgres
+      password: postgres
